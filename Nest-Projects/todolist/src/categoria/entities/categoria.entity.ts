@@ -1,8 +1,8 @@
 import { IsNotEmpty, MaxLength } from "class-validator"
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm"
-import { Tarefa } from 'src/tarefa/entities/tarefa.entity';
+import { Tarefa } from "../../tarefa/entities/tarefa.entity";
 
-@Entity ('Tb_categoria')
+@Entity ('tb_categoria')
 export class Categoria {
 
     @PrimaryGeneratedColumn()

@@ -1,4 +1,4 @@
-import { Categoria } from './../../categoria/entities/categoria.entity';
+import { Categoria } from "../../categoria/entities/categoria.entity";
 import { IsNotEmpty, MaxLength } from "class-validator";
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 
